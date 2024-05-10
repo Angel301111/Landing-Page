@@ -814,12 +814,13 @@ $utilities: map-merge(
     ),
     "background-attachment": (
       rfs: true,
+      responsive:true,
       property: background-attachment,
       class: bg-attachment,
       values: (
         fixed: fixed
       )
-    )
+    ),
   ),
   $utilities
 );

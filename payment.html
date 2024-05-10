@@ -48,7 +48,7 @@
     </header>
     <section class="container py-5">
         <div class="row justify-content-center">
-            <div class="col-12 col-lg-8">
+            <div class="col-lg-8">
                 <form action="" class="p-lg-5 shadow-lg">
                     <h3 class="deco-line mb-3">選擇方案</h3>
                     <div class="row row-cols-1 row-cols-lg-3 g-3 mb-4">
@@ -73,11 +73,11 @@
                     <div class="row g-3">
                         <div class="col-lg-6">
                         <label for="inputLastName" class="form-label">名字</label>
-                        <input type="email" class="form-control" id="inputLastName">
+                        <input type="text" class="form-control" id="inputLastName">
                         </div>
                         <div class="col-lg-6">
                         <label for="inputFirstName" class="form-label">姓氏</label>
-                        <input type="password" class="form-control" id="inputFirstName">
+                        <input type="text" class="form-control" id="inputFirstName">
                         </div>
                         <div class="col-12">
                         <label for="inputPhone" class="form-label">手機號碼</label>
@@ -135,32 +135,35 @@
     <section class="py-5 bg-light">
         <div class="container px-5">
         <h2 class="text-center mb-4">需要其他協助嗎？</h2>
-            <div class="row row-cols-1 row-cols-lg-3 g-3 px-5">
-                <div class="col">
+            <ul  class="row g-3 justify-content-center list-unstyled">
+                <li class="col-lg-3">
                     <div class="card border-0 shadow">
                         <div class="card-body d-flex justify-content-center align-items-center py-4">
                             <i class="bi bi-telephone-fill text-info pe-2"></i>
-                            <p class="m-0 text-secondary fs-5">07-555-666</p>
+                            <a href="tel:07-555-666"
+                            class="m-0 text-secondary fs-5 text-decoration-none">07-555-666</a>
                         </div>
                     </div>
-                </div>
-                <div class="col">
+                </li>
+                <li class="col-lg-3">
                     <div class="card border-0 shadow">
                         <div class="card-body d-flex justify-content-center align-items-center py-4">
                             <i class="bi bi-facebook text-info pe-2"></i>
-                            <p class="m-0 text-secondary fs-5">我就是個小懶蟲</p>
+                            <a href="#"
+                            class="m-0 text-secondary fs-5 text-decoration-none">我就是個小懶蟲</a>
                         </div>
                     </div>
-                </div>
-                <div class="col">
+                </li>
+                <li class="col-lg-3">
                     <div class="card border-0 shadow">
                         <div class="card-body d-flex justify-content-center align-items-center py-4">
                             <i class="bi bi-question-circle-fill text-info pe-2"></i>
-                            <p class="m-0 text-secondary fs-5">常見問題</p>
+                            <a href="./Q&A.html"
+                            class="m-0 text-secondary fs-5 text-decoration-none">常見問題</a>
                         </div>
                     </div>
-                </div>
-            </div>
+                </li>
+            </ul >
         </div>
 
     </section>

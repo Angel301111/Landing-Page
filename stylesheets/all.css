@@ -726,7 +726,6 @@ progress {
 
 .container,
 .container-fluid,
-.container-xxl,
 .container-xl,
 .container-lg,
 .container-md,
@@ -758,11 +757,6 @@ progress {
 @media (min-width: 1200px) {
   .container-xl, .container-lg, .container-md, .container-sm, .container {
     max-width: 1140px;
-  }
-}
-@media (min-width: 1400px) {
-  .container-xxl, .container-xl, .container-lg, .container-md, .container-sm, .container {
-    max-width: 1320px;
   }
 }
 :root {
@@ -3934,8 +3928,7 @@ textarea.form-control-lg {
 .navbar > .container-sm,
 .navbar > .container-md,
 .navbar > .container-lg,
-.navbar > .container-xl,
-.navbar > .container-xxl {
+.navbar > .container-xl {
   display: flex;
   flex-wrap: inherit;
   align-items: center;
@@ -9679,6 +9672,9 @@ textarea.form-control-lg {
   .text-sm-center {
     text-align: center !important;
   }
+  .bg-attachment-sm-fixed {
+    background-attachment: fixed !important;
+  }
 }
 @media (min-width: 768px) {
   .float-md-start {
@@ -10248,6 +10244,9 @@ textarea.form-control-lg {
   }
   .text-md-center {
     text-align: center !important;
+  }
+  .bg-attachment-md-fixed {
+    background-attachment: fixed !important;
   }
 }
 @media (min-width: 992px) {
@@ -10819,6 +10818,9 @@ textarea.form-control-lg {
   .text-lg-center {
     text-align: center !important;
   }
+  .bg-attachment-lg-fixed {
+    background-attachment: fixed !important;
+  }
 }
 @media (min-width: 1200px) {
   .float-xl-start {
@@ -11389,6 +11391,9 @@ textarea.form-control-lg {
   .text-xl-center {
     text-align: center !important;
   }
+  .bg-attachment-xl-fixed {
+    background-attachment: fixed !important;
+  }
 }
 @media (min-width: 1400px) {
   .float-xxl-start {
@@ -11958,6 +11963,9 @@ textarea.form-control-lg {
   }
   .text-xxl-center {
     text-align: center !important;
+  }
+  .bg-attachment-xxl-fixed {
+    background-attachment: fixed !important;
   }
 }
 @media (min-width: 1200px) {
